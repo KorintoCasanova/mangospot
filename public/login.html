@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head><title>Login Hotspot</title></head>
+<body>
+  <h2>Autenticação MangoSpot</h2>
+  <form method="POST" action="/auth">
+    <input type="hidden" name="mac" value="{{mac}}">
+    <input type="hidden" name="ip" value="{{ip}}">
+    <input type="hidden" name="link-login" value="{{link-login}}">
+    <input type="hidden" name="link-orig" value="{{link-orig}}">
+    <input type="text" name="cpf" placeholder="Digite seu CPF">
+    <button type="submit">Entrar</button>
+  </form>
+</body>
+</html>
